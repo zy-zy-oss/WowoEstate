@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit; /* inherit means the color of the parent element */
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  overflow: hidden; /* prevent the scroll bar from appearing */
+}
