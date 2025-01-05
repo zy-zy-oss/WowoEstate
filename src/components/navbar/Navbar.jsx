@@ -7,7 +7,7 @@ function Navbar(){
             <div className="left">
                 <a className="logo" href="/">
                     <img src="/logo.png"  alt="" />
-                    <span>蜗蜗直租</span>
+                    <span>蜗蜗找房</span>
                 </a>
                 <a href="/">首页</a>
                 <a href="/">关于我们</a>
@@ -20,7 +20,7 @@ function Navbar(){
                 <div className="menuIcon" onClick={() => setOpen(prev => !prev)}>
                     <img src="/menu.png" alt="" />
                 </div>
-                <div className="menu">
+                <div className={`menu ${open ? 'active' : ''}`}>
                 <a href="/">首页</a>
                 <a href="/">关于我们</a>
                 <a href="/">联系我们</a>
